@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Mulish', sans-serif;
-    
+
 }
 
 .container {
@@ -58,6 +58,7 @@ nav {
     font-size: 36px;
     font-weight: 800;
 }
+
 .fa-bars {
     font-size: 20px;
 }
@@ -75,7 +76,7 @@ nav {
 }
 
 .bannar-part {
-    margin-top: 50px;
+    margin-top: 60px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/group13\(1\)\(1\).png');
     /* border: 2px solid red; */
     min-height: 500px;
@@ -97,7 +98,8 @@ nav {
 
 .bannar-title {
     color: #FFF;
-    font-size: 64px;;
+    font-size: 64px;
+    ;
     font-weight: 800;
     margin-bottom: 24px;
 }
@@ -149,4 +151,267 @@ nav {
     align-items: center;
 }
 
+.about {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
 
+.header-text {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-part {
+    /* border: 2px solid tomato; */
+    min-height: 200px;
+    width: 50%;
+}
+
+.img-part {
+    /* border: 2px solid yellow; */
+    min-height: 200px;
+    width: 50%;
+}
+
+.img-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-des {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-part ul {
+    padding: 20px;
+}
+
+.text-part ul li {
+    margin-bottom: 10px;
+}
+
+.text-part button {
+    margin-top: 34px;
+}
+
+.btn-clasic {
+    border: none;
+    color: white;
+    padding: 14px 25px;
+    font-weight: 800px;
+    font-size: 20px;
+    border-radius: 8px;
+
+    background: #FF5400;
+}
+
+.single-destination1 {
+    border-radius: 16px;
+    /* background:  url('../Images/maldip.png'); */
+    /* background-repeat: no-repeat; */
+    border: 2px solid red;
+    background: url('../Images/maldip.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    width: 573px;
+
+}
+
+.single-destination2 {
+    border-radius: 16px;
+    /* background:  url('../Images/maldip.png'); */
+    /* background-repeat: no-repeat; */
+    border: 2px solid red;
+    background: url('../Images/indonesia.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.single-destination3 {
+    border-radius: 16px;
+    /* background:  url('../Images/maldip.png'); */
+    /* background-repeat: no-repeat; */
+    border: 2px solid red;
+    background: url('../Images/srilanka.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.single-destination4 {
+    border-radius: 16px;
+    /* background:  url('../Images/maldip.png'); */
+    /* background-repeat: no-repeat; */
+    border: 2px solid red;
+    background: url('../Images/northamerica.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+
+}
+
+.single-destination5 {
+    border-radius: 16px;
+    /* background:  url('../Images/maldip.png'); */
+    /* background-repeat: no-repeat; */
+    border: 2px solid red;
+    background: url('../Images/kasmir.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.single-destination6 {
+    border-radius: 16px;
+    /* background:  url('../Images/maldip.png'); */
+    /* background-repeat: no-repeat; */
+    border: 2px solid red;
+    background: url('../Images/bd.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.single-destination7 {
+    border-radius: 16px;
+    /* background:  url('../Images/maldip.png'); */
+    /* background-repeat: no-repeat; */
+    border: 2px solid red;
+    background: url('../Images/bandarban.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+/* .country {
+    color: #FFF;
+    
+    font-size: 28px;
+    
+    font-weight: 800;
+    
+}
+
+.single-destination1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:10px
+}
+
+.single-destination1 {
+    grid-column: span 12;
+}
+.single-destination2 {
+    grid-column: span 12;
+}
+.single-destination3 {
+    grid-column: span 8;
+}
+.single-destination4 {
+    grid-column: span 10;
+}
+
+.single-destination5 {
+    grid-column: span 6;
+}
+.single-destination6 {
+    grid-column: span 10;
+}
+.single-destination7 {
+    grid-column: span 14;
+} */
+
+
+
+/* .try-img {
+    border: 2px solid green;
+    width: 50%;
+    position: relative;
+}
+
+.try-img img {
+    width: 100%;
+    height: 100%;
+}
+.con-name {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+} */
+.hi {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+    /* border: 5px solid red; */
+}
+
+.try-img {
+    /* border: 2px solid blue; */
+    width: 100%;
+    position: relative;
+}
+
+.try-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+
+.maldives {
+    grid-column: span 12;
+}
+
+.indonesia {
+    grid-column: span 12;
+}
+
+.srilanka {
+    grid-column: span 8;
+}
+
+.northamerica {
+    grid-column: span 10;
+}
+
+.kasmir {
+    grid-column: span 6;
+}
+
+.bd {
+    grid-column: span 10;
+}
+
+.bandarban {
+    grid-column: span 14;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
