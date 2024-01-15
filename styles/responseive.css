@@ -1,0 +1,47 @@
+
+@media screen and (max-width:576px) {
+    .container {
+        padding: 16px;
+    }
+    .form-part {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .bannar-title {
+        font-size: 22px;
+    }
+    .search {
+        width: 100%;
+    }
+    .bannar-des {
+        font-size: 14px;
+        width: 80%;
+    }
+    .bannar-part {
+        background-position: center center;
+    }
+    .nav-items .icon {
+        display: block;
+        
+    }
+    
+    .nav-text {
+        display: none;
+    }
+    .nav-items {
+        width: 15%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .nav-logo {
+        width: 70%;
+    }
+    
+    nav .nav-items:hover .nav-text {
+        display: block;
+    }
+
+
+}

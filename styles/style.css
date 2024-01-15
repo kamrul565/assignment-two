@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+.container {
+    min-height: 200px;
+    /* border: 2px solid red; */
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.basic-font-color {
+    color: var(--Dark-02, #424247);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 50%;
+    min-height: 100px;
+    /* border: 2px solid blue; */
+}
+
+.nav-items {
+    /* border: 2px solid red; */
+    width: 50%;
+    min-height: 100px;
+}
+
+.nav-items .icon {
+    display: none;
+    padding: 5px;
+}
+
+.nav-logo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 36px;
+    font-weight: 800;
+}
+.fa-bars {
+    font-size: 20px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-items a {
+    text-decoration: none;
+}
+
+.bannar-part {
+    margin-top: 50px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/group13\(1\)\(1\).png');
+    /* border: 2px solid red; */
+    min-height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.bannar-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* border: 5px solid red; */
+}
+
+.bannar-title {
+    color: #FFF;
+    font-size: 64px;;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.bannar-des {
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 40px;
+
+}
+
+.fa-solid {
+    color: white;
+}
+
+.search-part {
+    /* border: 2px solid red; */
+    width: 70%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px
+}
+
+.search {
+    border: none;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    width: 50%;
+    border-radius: 8px;
+}
+
+.form-part {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.btn-primary {
+    background: #FF5400;
+    color: white;
+}
+
+.find-btn {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
