@@ -161,6 +161,24 @@
         bottom: 8%;
     
     }
+    .mountains {
+        flex-direction: column;
+    }
+
+    .watch {
+        font-size: 20px;
+    }
+
+    .mountain-video {
+        width: 100%;
+    }
+    .footer-hr {
+        
+        margin: 24px 0;
+        width: 80%;
+    
+        
+    }
 
 
 }
