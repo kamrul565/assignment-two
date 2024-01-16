@@ -92,6 +92,10 @@
         gap: 16px;
     }
 
+    .single-place img {
+        height: 250px;
+    }
+
     .maldives {
         grid-column: span 1;
     }
