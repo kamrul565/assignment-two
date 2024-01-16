@@ -179,6 +179,21 @@
     
         
     }
+    .travelling-offers-route {
+        flex-direction: column;
+    }
+
+    .offer-text {
+       order: 2;
+       width: 100%;
+    }
+    .route-img {
+        
+        order: 1;
+        width: 100%;
+    }
+    
+    
 
 
 }

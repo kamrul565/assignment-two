@@ -512,24 +512,50 @@ footer {
 .travelling-offers-route {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
     
 }
 
 .offer-text {
     width: 39%;
     min-height: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
-    background: rgba(19, 19, 24, 0.10);
+    /* background: rgba(19, 19, 24, 0.10); */
 
 }
 .route-img {
     width: 59%;
     min-height: 200px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 16px;
 }
 
 .route-img img {
     width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.travel-route {
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: center;
+}
+
+.travel-route img {
+    width: 15%;
+    margin: 5px 0;
+}
+
+.offer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-des {
+    padding: 24px;
+    text-align: center;
 }
