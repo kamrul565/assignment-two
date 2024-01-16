@@ -209,145 +209,18 @@ nav {
     background: #FF5400;
 }
 
-.single-destination1 {
-    border-radius: 16px;
-    /* background:  url('../Images/maldip.png'); */
-    /* background-repeat: no-repeat; */
-    border: 2px solid red;
-    background: url('../Images/maldip.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    /* width: 100%; */
-    width: 573px;
-
-}
-
-.single-destination2 {
-    border-radius: 16px;
-    /* background:  url('../Images/maldip.png'); */
-    /* background-repeat: no-repeat; */
-    border: 2px solid red;
-    background: url('../Images/indonesia.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    width: 100%;
-
-}
-
-.single-destination3 {
-    border-radius: 16px;
-    /* background:  url('../Images/maldip.png'); */
-    /* background-repeat: no-repeat; */
-    border: 2px solid red;
-    background: url('../Images/srilanka.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    width: 100%;
-
-}
-
-.single-destination4 {
-    border-radius: 16px;
-    /* background:  url('../Images/maldip.png'); */
-    /* background-repeat: no-repeat; */
-    border: 2px solid red;
-    background: url('../Images/northamerica.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    /* width: 100%; */
-
-}
-
-.single-destination5 {
-    border-radius: 16px;
-    /* background:  url('../Images/maldip.png'); */
-    /* background-repeat: no-repeat; */
-    border: 2px solid red;
-    background: url('../Images/kasmir.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    width: 100%;
-
-}
-
-.single-destination6 {
-    border-radius: 16px;
-    /* background:  url('../Images/maldip.png'); */
-    /* background-repeat: no-repeat; */
-    border: 2px solid red;
-    background: url('../Images/bd.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    width: 100%;
-
-}
-
-.single-destination7 {
-    border-radius: 16px;
-    /* background:  url('../Images/maldip.png'); */
-    /* background-repeat: no-repeat; */
-    border: 2px solid red;
-    background: url('../Images/bandarban.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    width: 100%;
-
-}
-
-/* .country {
-    color: #FFF;
-    
-    font-size: 28px;
-    
-    font-weight: 800;
-    
-}
-
-.single-destination1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destinations {
-    display: grid;
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap:10px
-}
-
-.single-destination1 {
-    grid-column: span 12;
-}
-.single-destination2 {
-    grid-column: span 12;
-}
-.single-destination3 {
-    grid-column: span 8;
-}
-.single-destination4 {
-    grid-column: span 10;
-}
-
-.single-destination5 {
-    grid-column: span 6;
-}
-.single-destination6 {
-    grid-column: span 10;
-}
-.single-destination7 {
-    grid-column: span 14;
-} */
 
 
 
-/* .try-img {
+
+
+/* single-place {
     border: 2px solid green;
     width: 50%;
     position: relative;
 }
 
-.try-img img {
+single-place img {
     width: 100%;
     height: 100%;
 }
@@ -356,7 +229,7 @@ nav {
     bottom: 50%;
     left: 50%;
 } */
-.hi {
+.destinations {
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
@@ -365,13 +238,13 @@ nav {
     /* border: 5px solid red; */
 }
 
-.try-img {
+.single-place {
     /* border: 2px solid blue; */
     width: 100%;
     position: relative;
 }
 
-.try-img img {
+.single-place img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -414,4 +287,69 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    color: #FFF;
+
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.section-text {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-des {
+    margin-top: 24px;
+    width: 60%;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.single-card {
+    /* border: 2px solid red; */
+    /* width: 50%;
+    display: flex; */
+    flex-basis: 48%;
+    padding: 32px;
+}
+
+.card-design1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-design2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.small-heading {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img-icon {
+    height: 64px;
+    /* border: 2px solid red; */
+}
+
+.img-icon img {
+    width: 15%;
+    height: 100%;
 }

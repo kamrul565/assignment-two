@@ -85,7 +85,7 @@
         font-size: 22px;
     }
 
-    .hi {
+    .destinations{
         margin-top: 48px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, 1fr);
@@ -113,5 +113,22 @@
     .bandarban {
         grid-column: span 1;
     }
+    .single-card {
+        /* border: 2px solid red; */
+        /* width: 50%;
+        display: flex; */
+        flex-basis: 100%;
+        /* padding: 32px; */
+    }
+    .small-heading {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+    .img-icon {
+        height: 48px;
+        /* border: 2px solid red; */
+    }
+    
+
 
 }
