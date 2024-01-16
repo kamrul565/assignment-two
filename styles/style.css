@@ -483,7 +483,7 @@ footer {
     width: 70%;
     margin: 50px 0;
     background: rgba(19, 19, 24, 0.10);
-    
+
 }
 
 .footer-content {
@@ -513,7 +513,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    
+
 }
 
 .offer-text {
@@ -524,6 +524,7 @@ footer {
     /* background: rgba(19, 19, 24, 0.10); */
 
 }
+
 .route-img {
     width: 59%;
     min-height: 200px;
@@ -558,4 +559,96 @@ footer {
 .offer-des {
     padding: 24px;
     text-align: center;
+}
+
+/* extra part */
+
+.tour {
+    /* border: 2px solid red; */
+    min-height: 500px;
+    background-image: url('../Images/group39.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 48px;
+
+}
+.tour1 {
+    min-height: 500px;
+    background-image: url('../Images/group40.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 48px; 
+}
+
+
+.inner-part {
+    /* border: 2px solid blue; */
+    min-height: 500px;
+    width: 50%;
+    /* margin: 56px 56px 56px 0; */
+    display: flex;
+    align-items: center;
+
+}
+
+.inner-card {
+    /* background-color: red; */
+    width: 92%;
+    height: 82%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-radius: 16px;
+    padding-right: 77px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.fa-clock,
+.fa-users,
+.fa-location-dot {
+    color: #FF5400;
+}
+
+.icon-img {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
+.icon-text {
+    color: #5A5A5D;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-right: 24px;
+
+}
+
+.single-icon {
+    display: flex;
+}
+
+.tour-price {
+    color: #FF5400;
+
+    font-size: 20px;
+
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+}
+
+.inner-part1 {
+    justify-content: flex-end;
 }
