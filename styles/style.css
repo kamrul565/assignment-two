@@ -340,7 +340,7 @@ single-place img {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 10px;
 }
 
@@ -352,4 +352,89 @@ single-place img {
 .img-icon img {
     width: 15%;
     height: 100%;
+}
+
+.travel-offer-subscribe {
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+
+}
+
+.subscrive {
+    height: 422px;
+    width: 43%;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    border-radius: 16px;
+
+}
+
+.travel-offer {
+    height: 422px;
+    width: 58%;
+    /* border: 2px solid blue; */
+    position: relative;
+
+}
+
+.travel-offer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.subscrive form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+
+.form-style {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+}
+
+hr {
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.offer-part {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 50%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    left: 48%;
+    bottom: 13%;
+
+}
+
+.travel-site {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.offer-70 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 800;
 }

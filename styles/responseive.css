@@ -128,7 +128,39 @@
         height: 48px;
         /* border: 2px solid red; */
     }
+    .travel-offer-subscribe {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 36px;
     
+    }
+
+    .subscrive {
+       
+        width: 100%;
+    
+    }
+    
+    .travel-offer {
+        width: 100%;
+    }
+    .travel-site {
+        font-size: 15.8px;
+    
+    }
+    
+    .offer-70 {
+
+        font-size: 21px;
+       
+    }
+
+    .offer-part {
+        
+        left: 45%;
+        bottom: 8%;
+    
+    }
 
 
 }
